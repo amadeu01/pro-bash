@@ -1,0 +1,11 @@
+#!/bin/bash
+#: Title       : s1
+#: Date        : 13-08-2017
+#: Author      : "Amadeu Cavalcante" <amadeu01@gmail.com>
+#: Version     : 1.0
+#: Description : create the “Hello, World!” script, hw, in $HOME/bpl/bin/; make it executable; and then execute it.
+#: Options     : None
+echo echo Hello World! > $HOME/bpl/bin/hw
+cp $HOME/bpl/bin/hw /bin/
+chmod +x /bin/hw
+hw
